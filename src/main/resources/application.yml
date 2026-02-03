@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Pages-Backend
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: sai@2006
+    url: jdbc:postgresql://localhost:5432/pagesDb
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  servlet:
+    context-path: /api/v1
